@@ -1,0 +1,14 @@
+<p>header works!</p>
+
+<div class="b-search">
+    <div class="b-search__language" (click)="toggleLanguage = !toggleLanguage">{{selectedLanguage}}</div>
+    <img class="b-search__arrow" (click)="toggleLanguage = !toggleLanguage"
+        src="./../../../../assets/images/header/arrow-mini-down.svg" />
+    <div class="b-search__dropdown" *ngIf="toggleLanguage === true">
+        <div class="b-search__value" (click)="changeLanguage('en')">EN</div>
+        <div class="b-search__value" (click)="changeLanguage('mk')">МК</div>
+    </div>
+</div>
+
+<p>{{'CORE.HEADER.HOME' | translate}}</p>
+<p>{{'CORE.FOOTER.LOGO' | translate}}</p>

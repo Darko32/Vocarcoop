@@ -1,0 +1,16 @@
+{
+    "routes": {
+        "en/home": "en/home"
+    },
+    "CORE": {
+        "HEADER": {
+          "HOME": "Home"
+        },
+        "FOOTER": {
+          "LOGO": "Vocarcoop Comerc"
+          
+        }
+
+}
+
+}

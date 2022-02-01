@@ -1,0 +1,16 @@
+{
+    "routes": {
+        "en/home": "mk/pochetna"
+    },
+    "CORE": {
+        "HEADER": {
+          "HOME": "Почетна"
+        },
+        "FOOTER": {
+          "LOGO": "Воќаркооп Комерц"
+          
+        }
+
+}
+
+}
